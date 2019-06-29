@@ -2,20 +2,20 @@
 
 
 ## Question
-谈一下你对uWSGI和nginx的理解？
+谈一下你对 uWSGI 和 nginx 的理解？
 
 ----
 
 ## Answer
 1.uWSGI是一个Web服务器，它实现了WSGI协议、uwsgi、http等协议。Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换。WSGI是一种Web服务器网关接口。它是一个Web服务器（如nginx，uWSGI等服务器）与web应用（如用Flask框架写的程序）通信的一种规范。
 
-要注意WSGI/uwsgi/uWSGI这三个概念的区分。
+要注意 WSGI/uwsgi/uWSGI 这三个概念的区分。
 
-WSGI是一种通信协议。
+WSGI 是一种通信协议。
 
-uwsgi是一种线路协议而不是通信协议，在此常用于在uWSGI服务器与其他网络服务器的数据通信。
+uwsgi 是一种线路协议而不是通信协议，在此常用于在 uWSGI 服务器与其他网络服务器的数据通信。
 
-uWSGI是实现了uwsgi和WSGI两种协议的Web服务器。
+uWSGI 是实现了 uwsgi 和 WSGI 两种协议的Web服务器。
 
 nginx 是一个开源的高性能的HTTP服务器和反向代理：
 

@@ -1,8 +1,8 @@
-# Django_06_用的restframework完成api发送时间时区
+# Django_06_用的 restframework 完成 api 发送时间时区
 
 
 ## Question
-用的restframework完成api发送时间时区
+用的 restframework 完成 api 发送时间时区
 
 ----
 
