@@ -5,7 +5,7 @@
 下列python变量的命名错误的是（）
 
 %!A. tmp1!%
-%!B. _name_!%
+%!B. \_name\_!%
 %!C. Student!%
 %!D. 32_int!%
 
